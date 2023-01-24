@@ -1,0 +1,149 @@
+
+/* ----------------------------catalog-2 page---------------------- */
+
+
+.contenyer{
+  
+    padding: 1rem 6%;
+    background-color: #4b626b;
+    transition: .9s ease ;
+    height: 4rem;
+}
+.contenyer>.icons>.navbar{
+    display: none;
+}
+
+.catalog-2{
+    width: 100%;
+    height: 45vh;
+    background-image: url(/static/img/liz6.jpg); 
+    background-size: cover;
+    background-position-y:-32rem ;
+  
+}
+.catalog-2>.liz-div{
+    width: 100%;
+    height: 45vh;
+    background: rgba(158, 153, 153, 0.276);
+    z-index: 1000;
+    
+    
+}
+.catalog-2>.liz-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+
+    
+  
+}
+
+.catalog-2>.liz-div>h1{
+    font-size: 8rem;
+    color: black;
+    
+}
+.catalog-2>.liz-div>.a>.forward>i{
+    font-size: 2rem;
+    color: black;
+  
+}
+
+.catalog-2>.liz-div>.a>.forward>i:hover{
+    color: #4b626b;
+    transform: scale(1.1);
+    margin-right: .4rem;
+}
+
+
+/* -------------------product----------------- */
+
+.product{
+    width: 100%;
+    background: rgb(218, 218, 218);
+    padding: 10px 8%;
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.part1{
+    width: 26%;
+    height:24rem;
+    background: whitesmoke;
+    padding: .8rem;
+    position: relative;
+    transition: .9s;
+    border-radius: .5rem;
+}
+
+.part1:hover{
+    height: 25rem;
+
+}
+
+.part1:hover>.dat{
+    padding: 1rem;
+    height: 15rem;
+    
+}
+.part1:hover img{
+    transform: scale(.9);
+}
+
+.part1>img{
+    width: 100%;
+    margin: auto;
+    transition:inherit;
+    transform: scale(1.08);
+}
+
+.dat{
+    width: 100%;
+    height: 0;
+    background: #eee;
+    padding: 0;
+    position: absolute;
+    bottom: .1rem;
+    left: 0;
+    transition: inherit;
+    border-radius: 0 0 1rem 1rem;
+    overflow: hidden;
+
+}
+
+.dat>p{
+    margin: 10px auto;
+
+}
+
+.dat>h2{
+    display: inline-block;
+    width: 100%;
+}
+
+.dat p:first-child h2{
+    width: 50%;
+}
+
+.part1>.dat>.in>span{
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    background: white;
+    display: inline-block;
+    text-align: center;
+    margin: 0 6px;
+
+
+}
+
+.part1>.dat>.in>.activ{
+    background-color: gray;
+    color: white;
+}
+

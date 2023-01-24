@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,200;1,400&family=Poppins:ital,wght@0,200;0,300;0,700;0,900;1,600;1,800&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline:none; border: none;
+    text-decoration: none;
+    transition: all 0.2s linear;
+   
+
+}
+*::selection{
+    background:rgb(29, 98, 117);
+    color:antiquewhite;
+
+}
+
+.contenyer{
+position: fixed;
+top:0;
+left:0;
+right: 0;
+z-index: 10000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem 6%;
+height: 5rem;
+
+}
+
+.contenyer.sticky{
+  
+    padding: 1rem 6%;
+    background-color: #43575f;
+    transition: .9s ease ;
+    height: 5rem;
+}
+.contenyer>.logo{ 
+    color: wheat;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+  
+   
+}
+
+.contenyer>.logo>.t{
+    font-size: 3rem;
+    color: rgb(56, 171, 162);
+}
+.contenyer>.icons>.navbar{
+    display: flex;
+}
+.contenyer>.icons{
+    display: flex;
+    flex-direction: row;
+}
+.contenyer>.icons>.navbar>a{
+    color:rgb(212, 213, 213);
+    font-size: 1.6rem;
+    padding: .9rem;
+}
+.contenyer>.icons>i{
+    color:rgb(212, 213, 213);
+    font-size: 2rem;
+    padding: .9rem;
+    margin-left: 1.6rem;
+}
+.contenyer>.icons>i:hover{
+    color:rgb(56, 171, 162) ; 
+    transition: .5s;
+}
+.contenyer>.icons>.navbar>a:hover{
+    font-weight: bolder;
+    color: rgb(56, 171, 162) ;
+    transition: .5s;
+   
+}
+
+
+
+#meniu-bar{
+    color: #fff;
+    border-radius: 0.5rem;
+    font-size: 2.3rem;
+    padding:0.5rem 1.2rem;
+    cursor: pointer;
+    display: none;
+}
+#meniu-bar:hover{
+    color:  rgb(56, 171, 162) ;
+}
+
+@media(max-width:700px){
+    #meniu-bar{
+        display: initial;
+    }
+    .contenyer>.icons>.navbar{
+        position: absolute;
+        top:100%; right: 0; left:0;
+        border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
+        padding: 1rem 2rem;
+        clip-path: polygon(0 0,100% 0, 100% 0,0 0);
+
+    }
+    .contenyer>.icons>.navbar.active{
+        clip-path: polygon(0 0,100% 0, 100% 100%,0 100%);
+        transition:ease 1.5s;
+        display: flex;
+        flex-direction: column;
+        background:linear-gradient(#43575fc1, #395b68f7);
+    }
+ 
+    .contenyer>.navbar>a{
+       
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+    }
+  
+}
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    .contenyer.icons>i{
+        font-size: 3rem;
+    }
+}

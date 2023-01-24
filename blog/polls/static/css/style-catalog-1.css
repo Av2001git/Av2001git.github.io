@@ -1,0 +1,163 @@
+
+/* ----------------------------catalog-1 page---------------------- */
+
+
+.contenyer{
+  
+    padding: 1rem 6%;
+    background-color: #4b626b;
+    transition: .9s ease ;
+    height: 4rem;
+}
+.contenyer>.icons>.navbar{
+    display: none;
+}
+
+.catalog-1{
+    width: 100%;
+    height: 45vh;
+    background-image: url(/static/img/arox1.jpg); 
+    background-size: cover;
+  
+}
+.catalog-1>.arox-div{
+    width: 100%;
+    height: 45vh;
+    background: rgba(158, 153, 153, 0.386);
+    z-index: 1000;
+    
+    
+}
+.catalog-1>.arox-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+
+    
+  
+}
+
+.catalog-1>.arox-div>h1{
+    font-size: 8rem;
+    color: black;
+    
+}
+.catalog-1>.arox-div>.forward>i{
+    font-size: 2rem;
+    color: black;
+  
+}
+
+.catalog-1>.arox-div>.forward>i:hover{
+    color: #4b626b;
+    transform: scale(1.1);
+}
+
+
+/* -------------------product----------------- */
+
+.product{
+    width: 100%;
+    background: rgb(218, 218, 218);
+    padding: 10px 8%;
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.part1{
+    width: 26%;
+    height:24rem;
+    background: whitesmoke;
+    padding: .8rem;
+    position: relative;
+    transition: .9s;
+    border-radius: .5rem;
+}
+
+.part1:hover{
+    height: 25rem;
+
+}
+
+.part1:hover>.dat{
+    padding: 1rem;
+    height: 15rem;
+    
+}
+.part1:hover img{
+    transform: scale(.9);
+}
+
+.part1>img{
+    width: 100%;
+    margin: auto;
+    transition:inherit;
+    transform: scale(1.08);
+}
+
+.dat{
+    width: 100%;
+    height: 0;
+    background: #eee;
+    padding: 0;
+    position: absolute;
+    bottom: .1rem;
+    left: 0;
+    transition: inherit;
+    border-radius: 0 0 1rem 1rem;
+    overflow: hidden;
+
+}
+
+.dat>p{
+    margin: 10px auto;
+
+}
+
+.dat>h2{
+    display: inline-block;
+    width: 100%;
+}
+
+.dat p:first-child h2{
+    width: 50%;
+}
+
+.part1>.dat>.in>span{
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    background: white;
+    display: inline-block;
+    text-align: center;
+    margin: 0 6px;
+
+
+}
+
+.part1>.dat>.in>.activ{
+    background-color: gray;
+    color: white;
+}
+.part1>.dat>.heart{
+    float: right;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.part1>.dat>.heart>i{
+    font-size: 1.5rem;
+    color: #4b626b;
+    margin-top: -3.5rem;
+    
+ 
+}
+.part1>.dat>.heart>.checked:hover{
+    color: rgba(201, 65, 65, 0.879);
+}

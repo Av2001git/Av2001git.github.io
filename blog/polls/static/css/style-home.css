@@ -1,0 +1,359 @@
+html{
+ 
+    overflow-x: hidden;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+    
+
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/static/img/j21.jpg); 
+    background-size: cover;
+    
+}
+
+.home>.div{
+    width: 100%;
+    height: 100vh;
+    background: rgba(32, 32, 32, 0.537);
+    z-index: 1000;
+    
+    
+}
+.home>.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.home>.div>h1{
+    font-size: 6rem;
+    font-family: 'Libre Bodoni', serif;
+    font-weight: bolder;
+    color:transparent;
+    -webkit-text-stroke: .03rem rgb(161, 161, 161);
+    color: rgb(215, 215, 215);
+}
+
+
+
+.home>.div>.icon_home{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.home>.div>.icon_home>a{
+    color: bisque;
+    font-size: 2.5rem;
+    padding: 1rem;
+    transform: rotate(10deg);
+   
+}
+.home>.div>.icon_home>a:hover{
+    transform: scale(1.1);
+    color: rgb(244, 202, 150);
+    
+
+}
+
+.home>.div1{
+    width: 100%;
+    background: rgb(231, 231, 231);
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+/* -----------------home blok 1----------------- */
+.home>.div1>.a1{
+   display: flex;
+   flex-wrap: wrap;
+   
+
+}
+
+.home>.div1>.a1>.text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+}
+.home>.div1>.a1>.text1>h1{
+    font-size: 2.5rem;
+    margin-left: 15rem;
+}
+.home>.div1>.a1>.text1>p{
+    font-size: 1.3rem;
+    margin-left: 2rem;
+}
+.home>.div1>.a1>img{
+   width: 30rem;
+   height: 20rem;
+   margin: 3rem 10rem 0 3rem;
+   border-radius: 10%;
+}
+
+/* -----------------home blok 2----------------- */
+.home>.div1>.a2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5rem;
+   
+    
+ 
+ }
+ .home>.div1>.a2>.text2{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    
+     
+ }
+ .home>.div1>.a2>.text2>h1{
+     font-size: 2.5rem;
+     margin-left: 10rem;
+ }
+ .home>.div1>.a2>.text2>p{
+     font-size: 1.3rem;
+     margin-left: 2rem;
+ }
+ .home>.div1>.a2>img{
+    width: 30rem;
+    height: 20rem;
+    margin-left: 6.5rem;
+    border-radius: 10%;
+ }
+
+
+/* ------------------home footer----------------- */
+
+         /* ----------foot-1---------- */
+
+.home>.footer{
+    width: 100%;
+    background:linear-gradient(#395b68,#4c6771e7);
+    margin-top: .9rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.home>.footer>.foot-1{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.home>.footer>.foot-1>h2{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.home>.footer>.foot-1>ul{
+  list-style: none;
+  font-size: 1.1rem;
+ 
+}
+.home>.footer>.foot-1>ul>li{
+    margin-bottom: .4rem;
+}
+.home>.footer>.foot-1>ul>li:hover{
+    transform: scale(1.07);
+    transition: .7s ease;
+    
+}
+.home>.footer>.foot-1>ul>li:hover>i{
+    color:rgb(56, 171, 162);
+    transition: .8s ease;
+
+}
+.home>.footer>.foot-1>ul>li>a{
+    margin-left: .7rem;
+    color: black;
+    font-size: 1.3rem;
+}
+.home>.footer>.foot-1>ul>li>a:hover{
+    border-bottom: 0.01rem solid rgb(56, 171, 162) ;
+}
+
+                   /* ----------foot-2---------- */
+.home>.footer>.foot-2{
+    margin: 1.1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.home>.footer>.foot-2>h2{
+    font-size: 2rem;
+    margin-left: 8rem;
+    padding: .3rem;
+   
+}
+
+
+.home>.footer>.foot-2>ul{
+    list-style: none;
+    font-size: 1.2rem;
+   
+}
+
+.home>.footer>.foot-2>ul>li>a{
+    margin-left: 7rem;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.home>.footer>.foot-2>ul>li:hover{
+    transition: .8s ease;
+    transform: scale(1.07);
+    transition: .8s ease;
+    color:rgb(56, 171, 162) ;
+    
+}
+.home>.footer>.foot-2>ul>li>a:hover{
+    color:rgb(56, 171, 162) ;
+}
+            /* ----------foot-3---------- */
+
+
+.home>.footer>.foot-3{
+    margin: 1.1rem;
+    margin-left: 7rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+                
+}
+            
+.home>.footer>.foot-3>h2{
+    font-size: 2rem;
+    margin-left: 2rem;
+    padding: .3rem;
+   
+}
+
+.home>.footer>.foot-3>ul{
+    list-style: none;
+    font-size: 1.3rem;
+   
+}
+.home>.footer>.foot-3>ul>li{
+    margin-left:1.1rem;
+    font-size: 1.6rem;
+}
+.home>.footer>.foot-3>ul>li:hover{
+    transform: scale(1.1);
+}
+.home>.footer>.foot-3>ul>li>i:hover{
+    color:rgb(56, 171, 162)  ;
+}
+
+            /* ----------foot-4---------- */
+         
+.home>.footer>.foot-4{
+    margin-left: 15rem;
+}
+.home>.footer>.foot-4>h2{
+    font-size: 1.7rem;
+}
+.home>.footer>.foot-4>.qr{
+    width: 12rem;
+    height: 12rem;
+    border-radius: .5rem;
+    margin-left: 1.1rem;
+    float:left;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------------media home-------------------- */
+@media(max-width:1200px){
+    html{
+        font-size: 70%;
+    }
+}
+
+@media(max-width:1248px){
+    .home>.div1>.a2>img{
+        margin-left: 2rem;
+    }
+    .home>.div1>.a2>.text2>p{
+        margin-bottom: 2rem;
+    }
+}
+@media(max-width:822px){
+    .home>.div1>.a2>img{
+        margin-left: 2rem;
+    }
+    .home>.div1>.a2>.text2>p{
+        margin-bottom: 2rem;
+    }
+}
+
+@media(max-width:320px){
+    .home>.footer>.foot-4{
+        margin-left: 9rem;
+    }
+    
+   .home>.footer>.foot-3{
+    margin-left: 4rem;
+   }
+}
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    .home>.div>h1{
+        font-size: 4rem;
+    }
+    .home>.div1>.a2>img{
+        margin-left: 2rem ;
+    }
+    .home>.div1>.a2>.text2>p{
+        margin-bottom: 2rem;
+    }
+}
+@media(max-width:330px){
+    html{
+        font-size: 50%;
+    }
+    .home>.div>h1{
+        font-size: 2rem;
+    }
+    .home>.div1>.a1>img{
+        width: 20rem;
+        height: 10rem;
+
+    }
+    .home>.div1>.a2>img{
+        width: 20rem;
+        height: 10rem;
+    }
+}
+
+
+
+
